@@ -1,0 +1,5 @@
+ServerApp es una aplicación de escritorio en Python diseñada para convertir una computadora en un servidor de archivos ligero dentro de una red local. Su objetivo es facilitar la transferencia rápida y ordenada de archivos entre equipos sin depender de servicios en la nube, correos o memorias USB.
+
+La aplicación integra una interfaz gráfica (GUI) para administrar el servicio, visualizar el estado del servidor y gestionar los archivos disponibles para descarga o recepción. En segundo plano, ejecuta un servicio web local que permite a otros dispositivos conectarse mediante la IP del equipo anfitrión para subir o bajar archivos de forma controlada. Está pensada para entornos de trabajo donde se requiere intercambiar archivos de manera constante (por ejemplo, logs, reportes, perfiles o ejecutables), manteniendo un flujo simple y centralizado.
+
+En resumen,ServerApp funciona como un “punto de intercambio” local: inicia el servidor, expone una carpeta de trabajo y habilita a otros equipos a transferir archivos de forma directa, rápida y práctica.
